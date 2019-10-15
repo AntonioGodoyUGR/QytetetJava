@@ -56,9 +56,9 @@ public class Jugador {
         return false;
     }
     
-    /*Sorpresa devolverCartaLibertad(){     //------------IDK-----------------
-        
-    }*/
+    Sorpresa devolverCartaLibertad(){
+        cartaLibertad = null;
+    }
     
     void irACarcel(Casilla casilla){
         
